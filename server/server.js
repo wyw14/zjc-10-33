@@ -33,7 +33,6 @@ function getDayStartTimestamp(date = new Date()) {
 }
 
 function isNewDay(data) {
-  const todayStr = getDateString();
   const todayStart = getDayStartTimestamp();
   if (!data.currentQuestion || !data.currentQuestion.date) {
     return true;

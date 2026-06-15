@@ -46,7 +46,7 @@
 </template>
 
 <script setup>
-import { ref, reactive, onMounted, watch } from 'vue'
+import { ref, reactive, onMounted } from 'vue'
 import TodayView from './components/TodayView.vue'
 import HistoryView from './components/HistoryView.vue'
 
